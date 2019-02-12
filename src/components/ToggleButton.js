@@ -12,7 +12,8 @@ export default class ToggleButton extends React.Component {
 
   render() {
     return (
-      
+      <button className="toggle-button">
+      </button>
     )
   }
 }
