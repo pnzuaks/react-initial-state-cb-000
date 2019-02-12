@@ -13,7 +13,7 @@ export default class ToggleButton extends React.Component {
   render() {
     return (
       <button className="toggle-button">
-        I am toggled (this.state,isEnabled)
+        I am toggled (this.state,isEnabled ? 'on')
       </button>
     )
   }
