@@ -9,4 +9,10 @@ export default class Address extends React.Component {
       fullAddress: `${props.street}, ${props.city}`
     }
   }
+
+  render() {
+    return (
+      
+    )
+  }
 }
