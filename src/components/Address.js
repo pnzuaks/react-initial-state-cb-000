@@ -6,7 +6,7 @@ export default class Address extends React.Component {
     super(props);
 
     this.state = {
-      fullAddress: `${props.street}, ${props.}`
+      fullAddress: `${props.street}, ${props.city}`
     }
   }
 }
